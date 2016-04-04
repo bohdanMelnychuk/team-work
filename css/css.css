@@ -8,15 +8,15 @@ body {
 }
 
 /* BLOCK 1 HEADER */
-.wrapper{
-  width: 1160px;
-  margin: 0 auto;
+.head-wrap{
+  width: 100%;
+  height: 60px;
 }
 .header{
   width: 1160px;
+  margin: 0 auto;
   height: 60px;
   background-color: #ffffff;
-  position: fixed;
 }
 .company-logo{
   float: left;
@@ -80,14 +80,19 @@ position: relative;
   font-size: 15px;
 }
 /* BLOCK 2 CONTEINER TABS */
-.conteiner-tabs{
+.conteiner-wrap{
   width: 100%;
-  height: 440px;
+  height: 380px;
+  background-color: #B7B3B3;
+}
+.conteiner-tabs{
+  width: 1160px;
+  margin: 0 auto;
+  height: 380px;
   background-color: #B7B3B3;
 }
 .main-headline{
 float: left;
-margin-top: 60px;
 margin-left: ;
 width:65%;
 }
@@ -108,7 +113,7 @@ width:65%;
   padding: 5px;
 }
 .head-button{
-  margin-top:  50px;
+  margin-top: 40px;
 }
 .head-button button{
   width: 355px;
@@ -123,7 +128,6 @@ width:65%;
 .big-img{
 float: right;
 width: 35%;
-margin-top: 60px;
 }
 .big-img img{
   max-width: 100%;
